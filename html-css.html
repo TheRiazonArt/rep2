@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>История роликовых коньков</title>
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+	<SCRIPT type="text/javascript">
+	function function1()
+	{
+		alert("Статус: "+window.status);
+	}
+
+	function function2()
+	{
+		alert("Браузер: "+navigator.appName+"\nВерсия: "+navigator.appVersion+"\nПлатформа: "+navigator.platform);
+	}
+
+	function function3()
+	{
+		alert("Адрес: "+location.href+"\nHostname: "+location.hostname);
+	}
+
+	function function4()
+	{
+		alert("Ширина: "+screen.width+"\nВысота: "+screen.height);
+	}
+
+	function imgb1()
+	{
+		document.getElementById("im2").style.visibility = "hidden";
+	}
+
+	function imgb2()
+	{
+		document.getElementById("im2").style.visibility = "visible";
+	}
+
+	function imgb3()
+	{
+		var tempz = document.getElementById("im1").style.zIndex;
+		document.getElementById("im1").style.zIndex = document.getElementById("im3").style.zIndex;
+		document.getElementById("im3").style.zIndex = tempz;
+	}
+	</SCRIPT>
+
+</head>
+
+<body>
+	<div class="text">
+		<main>
+			<form class="bb" name="form_1">     
+				<br><input class="butt" type="button" value="Window" onClick="function1();"></br>
+				<br><input class="butt" type="button" value="Navigator" onClick="function2();"></br>
+				<br><input class="butt" type="button" value="Location" onClick="function3();"></br>
+				<br><input class="butt" type="button" value="Screen" onClick="function4();"></br>
+			  </form>
+			
+	    
+			<SCRIPT type="text/javascript">
+				document.write(document.lastModified)
+			</SCRIPT>
+	  
+		    <h1>Создание роликов</h1>
+				<p><font onmouseover="this.style.color='blue';this.style.fontFamily='Georgia';" onmouseout="this.style.color='black';this.style.fontFamily='Gotham';">Роликовые коньки, или «ролики» по-простому, появились как замена ледовых коньков в теплое время года и для катания в помещениях. Впервые роликовые коньки начали использовать в Северной Европе и Скандинавии, где ледовые коньки были популярным средством передвижения по замерзшим рекам и каналам. В более теплое время года местные жители осваивали простейшие модели роликовых коньков: ботинки с деревянными катками. Их конструкция повторяла ледовые коньки: колеса ставили в один ряд – такой дизайн получил название «инлайн», что значит «в линию», а число колес варьировалось.</font></p>
+				<p onmouseover="this.style.textIndent='25mm';this.style.marginRight='30mm'" onmouseout="this.style.textIndent='6mm';this.style.marginRight='0px'">Первое историческое упоминание о роликовых коньках приходится на 1743 год: их использовали в Лондоне в театральной постановке для имитации ледовых коньков. Все детали этой истории, включая имя создателя, утеряны в веках. Первым изобретателем, чье имя прошло испытание времени и дошло до нас, стал Джозеф Мерлин (в его честь в наше время назвали довольно популярную модель роликов Rollerblade) в 1760 году в Лондоне.</p>
+		  
+				</details>&nbsp;<h2>Хронология становления роликовых коньков</h2>
+				  <p class="news"><span class="date">1743 год - </span>Первые в мире ролики</p>
+				  <p class="news"><span class="date">1819 год - </span>Первый патент на ролики</p>
+				  <p class="news"><span class="date">1866 год - </span>Первый роллердром мира в Лондоне</p>
+				  <p class="news"><span class="date">1900 год - </span>Запатентованы инлайны на двух колесах</p>
+				  <p class="news"><span class="date">1910 год - </span>Разработаны ролики для хоккеистов с тремя колесами</p>
+				  <p class="news"><span class="date">1953 год - </span>Разработаны ролики с двумя полностью резиновыми колесами</p>
+				  <p class="news"><span class="date">1980 год - </span>Основан Rollerblade Inc.</p>
+				  <p class="news"><span class="date">2000 годы - </span>Появление других компаний Seba, K2, Salomon, Roces и др.</p>
+				  <p class="news"><span class="date">2004 год - </span>Появление магазина Роллеклуб в России</p>
+		</main>
+		<br></br>
+		<table class="bord" border="1">
+			<tr>
+			 <td class="td1">Ячейка 1 </td>
+			 <td class="td1">Ячейка 2 </td>
+			</tr>
+			<tr>
+			 <td class="td2">Ячейка 3 </td>
+			 <td class="td2">Ячейка 4 </td>
+		   </tr>
+		</table>
+
+		<br></br>
+
+		<div>
+			<img class="img1" src="sebaendless.jpg" id="im1">
+			<img class="img2" src="sebacj.jpg" id="im2">
+			<img class="img3" src="sebawiz.jpg" id="im3">
+
+			<script>
+				document.getElementById("im1").style.zIndex = "30";
+				document.getElementById("im2").style.zIndex = "15";
+				document.getElementById("im3").style.zIndex = "1";
+			</script>
+
+			<div class="imgb">
+				<br><input type="button" value="Вторая умирает" onClick="imgb1();"></br>
+				<br><input type="button" value="Вторая воскресает" onClick="imgb2();"></br>
+				<br><input type="button" value="Сменя первой и третьей" onClick="imgb3();"></br>
+			</div>
+		</div>
+	</div> 
+</body>
+</html>

@@ -1,0 +1,191 @@
+@font-face {
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 400;
+  /* Браузер сначала попробует найти шрифт локально */
+  src: url(fonts/gothampro.ttf); /* Путь к файлу со шрифтом */
+}
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+	font-family: "Gotham", "Gotham", sans-serif;
+}
+
+.positioned {
+  position: sticky;
+  /* padding-left: 100px; */
+  padding-top: 70px;
+  top: 0%;
+  left: 0%;
+  z-index: 100;
+}
+
+.container {
+	z-index: 50;
+}
+
+.count-input {
+	width:10%;
+	display: inline;
+}
+
+.add-to-basket-block {
+	margin-top: 7px;
+}
+
+
+.modal-image {
+	width: 100%;
+}
+
+.slide-image {
+    width: 100%;
+}
+
+.carousel-holder {
+    margin-bottom: 30px;
+}
+
+.carousel-control,
+.item {
+    border-radius: 4px;
+}
+
+.caption {
+    height: 130px;
+    overflow: hidden;
+}
+
+.caption h4 {
+    white-space: nowrap;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.ratings {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #d17581;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+    color: #333;
+}
+.amount{
+    display: inline;
+}
+.product{
+    display: inline;
+}
+.remove-from-cart{
+    display: inline;
+}
+footer {
+    margin: 50px 0;
+}
+
+
+.bb {
+  position: fixed;
+  flex-direction: row;
+  right: 0;
+  left: 70;
+  margin-left: 10px;
+  padding-right: 20px;
+}
+
+.butt {
+	position:absolute;
+  right: 0;
+  left: 70;
+  padding-right: 10px;
+}
+
+.imgb{
+  display: flex;
+  padding-top: 600px;
+  left: 70;
+  padding-right: 10px;
+  padding-bottom: 200px;
+}
+
+.bord {
+  border-style:double;
+  background:#e7e7e7; /* Цвет фона таблицы */
+  color: rgb(0, 0, 0); /* Цвет текста */
+	border:#000;
+  border-spacing: 1px;
+}
+
+.text {
+  float:left;
+  width: 90%;
+  padding:0 20px;
+  min-height: 556px;
+}
+
+.td {
+  background:#e7e7e7; /* Цвет фона таблицы */
+  color: rgb(0, 0, 0); /* Цвет текста */
+}
+
+.td1 {
+  background:#d2d2d2; /* Цвет фона таблицы */
+  color: rgb(0, 0, 0); /* Цвет текста */
+}
+
+.td1:hover {
+  background:#754e4e; /* Цвет фона таблицы */
+  color: rgb(255, 255, 255); /* Цвет текста */
+  font:bolder;
+  font-family: "Courier";
+  font-style: normal;
+}
+
+.td2 {
+  background:#dfdfdf; /* Цвет фона таблицы */
+  color: rgb(0, 0, 0); /* Цвет текста */
+}
+
+.td2:hover {
+  background:#4e6675; /* Цвет фона таблицы */
+  color: rgb(255, 255, 255); /* Цвет текста */
+  font:bolder;
+  font-family: "Courier";
+  font-style: normal;
+}
+
+.img1{
+
+  width: 565px; 
+  height: 423px;
+
+  position:absolute;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.img2{
+  width: 565px; 
+  height: 423px;
+
+  position:absolute;
+  padding-left: 40px;
+  padding-top: 40px;
+}
+
+.img3{
+  width: 565px; 
+  height: 423px;
+
+  position:absolute;
+  padding-left: 80px;
+  padding-top: 80px;
+}
